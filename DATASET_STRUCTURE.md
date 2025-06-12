@@ -25,8 +25,31 @@ travistorrent-java-ci-build-dataset/
 - Each row = one build or job.
 - Each project = one directory with two main CSVs.
 
+
+
+
 ## Notes
 
 - The structure allows for easy project-level or cross-project analysis.
 - Column names are consistent so you can join/merge files.
 - Not all columns may be filled for all languages/projects.
+
+
+
+## Directory Structure
+
+travistorrent-java-ci-build-dataset/
+├── BBC-News@wraith/
+│   ├── repo-data-travis.csv
+├── DiUS@java-faker/
+│   ├── repo-data-travis.csv
+│   ├── buildlog-data-travis.csv
+├── GoClipse@goclipse/
+│   ├── repo-data-travis.csv
+│   ├── buildlog-data-travis.csv
+├── Guake@guake/
+│   ├── repo-data-travis.csv
+│   ├── buildlog-data-travis.csv
+├── ...
+
+
